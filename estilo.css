@@ -1,0 +1,326 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;    
+}
+
+.header {
+    text-align: center;
+    margin: auto;
+}
+
+.header_logo {
+    width: 7.5em;
+    height: auto;
+}
+
+.header_logo:hover {
+    transform: scale(1.3);
+    transition: 1s ease-in-out;
+}
+
+#hamburguer {
+    background-color: #000;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.header_nav {
+    display: none;
+}
+
+.header_nav.show {
+    display: block;
+} 
+
+ul {
+    margin: 0;
+    font-size: .8em;
+}
+
+.header_nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: .8em;
+}
+
+.header_nav a {
+    color: #1d2927;
+    text-decoration: none;
+    display: block;
+    padding: .3em;
+    text-shadow: .3px .3px rgb(0, 0, 0, .8);
+}
+
+.header_nav a:hover {
+    background-color: #28332b;
+    color: #fff;
+}
+
+@media screen and (min-width: 36em) {
+
+    #hamburguer {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fafafa;        
+    }
+
+    .header_logo {
+        margin-left: 2em;
+    }
+
+    .header_nav {
+        display: block;        
+    }
+
+    .header_nav ul {
+        margin-right: 2em;
+        font-size: 1em;        
+    }
+
+    .header_nav li {
+        display: inline-block;
+    }
+
+    .header_nav a {
+        border-radius: 5px;
+        color: #000;        
+    }
+
+    .header_nav a:hover {
+        background-color: #861a1a;
+        color: #fff;
+    } 
+    
+}
+
+@media screen and (min-width: 36em) {
+
+    .container {
+        background-image: url(imagens/pexels-suzy-hazelwood-1995842\ \(1\).jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 70vh;
+        background-repeat: no-repeat;
+    
+    }
+    .fundo_main_dois {
+        background-image: url(imagens/pexels-suzy-hazelwood-3631711.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 50vh;
+    }  
+    
+}
+
+.conteudo h1 {
+    font-family: "Special Elite";
+    padding: 1em;
+    text-align: center;
+}
+
+.conteudo p {
+    margin: 0 1em 0 2em;
+    padding-bottom: 1.5em;
+    text-align: center;       
+}
+
+.title {
+    margin: 0;
+}
+   
+
+@media screen and (min-width: 36em) {
+    
+    .conteudo {
+        background-image: url(imagens/pexels-ron-lach-10526919.jpg);
+        background-repeat: no-repeat;        
+        background-attachment: fixed;                        
+    }
+
+    #section1 {
+        padding-top: .5em;
+    }
+
+    .conteudo h1 {
+        font-family: "Special Elite";
+        padding: 1em;
+        text-align: center;        
+    }  
+
+    .conteudo p {
+        margin: 0 1em 0 2em;
+        padding-bottom: 1.5em;
+        text-align: center;       
+    }
+
+    .title {
+        margin: 0;
+    }
+   
+}
+
+.main_content {
+    background: #ccc;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;      
+}
+
+.main_content div {
+    margin: auto;
+    padding: 1em;
+    width: 80%;    
+}
+
+.main_content h1 {
+    font-family: "Special Elite";
+    margin-bottom: 1em;
+}
+
+.main_content p {
+    padding: 0 2em 2em 2em;
+}
+
+.main_content_title {
+    color: #000;
+    font-family: "Special Elite";
+    letter-spacing: .1em;
+}
+
+.image {
+    width: 15em;
+    margin-top: 1em;          
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;    
+    justify-content: space-around;    
+}
+
+.col {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.article_botao {
+    box-sizing: border-box;
+    padding: .7em;
+    text-decoration: none;
+    background-color:#000;
+    color: #fafafa;    
+    border-radius: 5px;    
+          
+}
+
+.article_botao:hover {
+    background-color: #861a1a;
+    color: #fff;
+}
+
+
+@media screen and (min-width: 36em) { 
+    .col-6 {
+        width: calc(50% - 2rem);   
+    }
+
+    a {
+        display: inline;
+    }
+   
+}
+
+#section7 p {
+    font-size: 1.5em;
+}
+
+.projeto_video {
+    display: flex;
+    justify-content: center;
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 36em) {
+   
+    .projeto_video {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1em;
+        margin: 0;
+    }    
+   
+}
+
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 0; 
+    text-align: center;
+    font-size: 1em;  
+}
+
+.rodape_title {
+    font-family: "Special Elite";
+    margin-bottom: .5em;
+}
+
+.rodape_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.rodape-icone {
+    margin: 0 10px;
+}
+
+.rodape-icone img {
+    width: 40px;
+    height: 40px;
+    display: flexbox;
+    margin-bottom: .5em;
+}
+
+@media screen and (min-width: 36em) {
+    footer {
+        background-color: #fafafa;
+        padding-top: 1em;
+    }
+
+    .rodape_icons {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 2em;             
+    }
+
+      .rodape-icone {
+        margin: 10px 0px;
+    }
+   
+}
+
